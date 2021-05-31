@@ -8,3 +8,4 @@ Am implementat urmatoarele:
  - am pus un exemplu de arbore (atunci cand se da click pe butonul Tree, apare pe canvas arborele exemplu)
  - se poate salva lucrarea atat ca si PDF, cat si ca PNG
  
+ Am folosit in mare parte java SWING si java AWT event.
