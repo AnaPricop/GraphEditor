@@ -2,7 +2,7 @@
 Am implementat urmatoarele functionalitati:
  - posibilitatea de a adauga un nod la nivelul cursorului
  - adaugarea unei muchii intre 2 noduri
- - posibilitatea de a sterge un nod![Screenshot from 2021-06-02 08-32-23]
+ - posibilitatea de a sterge un nod
 
  - atunci cand adaugam un nod sau o muchie noua, putem alege culoarea si marimea acestora (la noduri, putem pune si text)
  - le putem muta oriunde pe canvas
