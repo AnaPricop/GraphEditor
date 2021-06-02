@@ -479,7 +479,7 @@ public final class DrawingPanel extends JPanel implements MouseListener, Compone
             return true;
         }
 
-        Color1 colors[] = new Color1[aux + 1];
+        Color1 colors[] = new Color1[aux];
 
         for (int i = 1; i < colors.length; i++) {
             colors[i] = Color1.WHITE;
@@ -487,7 +487,7 @@ public final class DrawingPanel extends JPanel implements MouseListener, Compone
 
         Queue<Integer> queue = new LinkedList<>();
 
-        for (int source = 1; source <= aux - 1; source++) {
+        for (int source = 0; source < aux - 1; source++) {
 
             if (colors[source] == Color1.WHITE) {
                 colors[source] = Color1.RED;
@@ -496,7 +496,7 @@ public final class DrawingPanel extends JPanel implements MouseListener, Compone
 
                 while (!queue.isEmpty()) {
                     int v = queue.remove();
-                    for (int i = 1; i <= adjList[v].size() - 1; i++) {
+                    for (int i = 0; i <= adjList[v].size(); i++) {
                         int dest = adjList[v].get(i);
 
                         if (colors[dest] == Color1.WHITE) {
